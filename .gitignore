@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Generated telemetry and databases
+data/*.csv
+data/*.jsonl
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Generated reports and incident records
+reports/*
+!reports/.gitkeep
+
+# Native build artifacts
+*.exe
+*.obj
+*.pdb
+
+# Windows performance trace files
+*.etl
+*.etl.zip
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
